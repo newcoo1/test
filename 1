@@ -15,3 +15,11 @@ git --author
 git --committer
 gitk	    //graphic tool to visualize your commit history
 git commit --amend	//take u to staging area and use it for for the commit
+#a typic useage of --amend
+    git commit -m 'xxxx'
+    git add forgotten_file
+    git add commit --amend
+git reset HEAD filename	    //unstaged 
+git checkout -- filename    //undo changes
+git remote -v //show remote server added,origin is the server u cloned from
+git remote add [name] [url]
