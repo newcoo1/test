@@ -6,4 +6,12 @@ git rm --cached filename    //untrack file but keep on hard drive
 git mv	    //rename a file
 git log	    //show history
 git log -p -2	    //show history with diff and limits the output to only the last 2 entries
-
+git log --word-diff	//word diff
+git log --graph	    //add a little asc2 graph showing
+git -(n)    //show only the last n commits
+git --since,--after //limit the commits to those made after the specified date
+git --until,--before //limit the commits to those made before te specified date
+git --author
+git --committer
+gitk	    //graphic tool to visualize your commit history
+git commit --amend	//take u to staging area and use it for for the commit
