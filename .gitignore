@@ -1,0 +1,6 @@
+*.[oa]
+#do track lib.a
+!lib.a
+#ignore directory
+build/
+#? signle character [0-9] ignore range
